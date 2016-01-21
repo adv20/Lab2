@@ -20,11 +20,11 @@ public class Lab2 {
 
 	int numWives = 7;
 
-	int numSacksPerWife = 7;
+	int numSacksPerWife = 7 * numWives;
 	
-	int numCatsPerSack = 7;
+	int numCatsPerSack = 7 * numSacksPerWife;
 
-	int numKitsPerCat = 7;
+	int numKitsPerCat = 7 * numCatsPerSack;
 
 	int total;
 
